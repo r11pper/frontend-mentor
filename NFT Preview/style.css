@@ -1,0 +1,95 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #0C2D48;
+}
+
+.container{
+    background-color: #003060;
+    padding: 1em;
+    max-width: 250px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: .5em;
+}
+.equil{
+    width: 100%;
+    border-radius: .5em;
+    object-fit:cover;
+    cursor: pointer;
+}
+
+.eye{
+    display: none;
+}
+
+.card {
+    color: white;
+    font-weight: bolder;
+    margin-top: 1em;
+    font-size: 17px;
+}
+.card:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.description{
+    color: #7f8c9b;
+    font-size: 12px;
+    margin-top: 1em;
+}
+
+.sub-footer{
+    color: aqua;
+    display: flex;
+    margin-top: 1em;
+}
+
+.duration{
+    color: #7f8c9b;
+    text-indent: 6em;
+    margin-bottom: 1em;
+}
+
+.footer{
+    border-top: 1px solid grey;
+    text-align: left;
+    padding-top: 1em;
+    font-weight: normal;
+}
+
+.footer:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.attribution {
+    color: white;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a{
+    color: white;
+    text-decoration: none;
+}
+
+.clock , .eth{
+    vertical-align: middle;
+    margin-right: .9em;
+}
+
+.creator{
+    width: 10%;
+    vertical-align: middle;
+    border: 2px solid white;
+    border-radius: 1.1em;
+    margin-right: .6em;
+}
