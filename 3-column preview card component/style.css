@@ -1,0 +1,83 @@
+*{
+    color: white;
+}
+
+.container-card{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: -.10em;
+    font-size: 2em;
+}
+p{
+    font-size: 1.2em;
+    word-spacing: .1em;
+    font-family:  monospace;
+}
+.container div{
+    padding: 1.5em;
+}
+
+.sedan{
+    background-color: #e38525;
+    border-radius: .5em 0 0 .5em;
+}
+
+.suv{
+    background-color: #016871;
+}
+
+.luxury{
+    background-color: #014140;
+    border-radius: 0 .5em .5em 0;
+}
+
+button{
+    color: black;
+    border-radius: 5em;
+    padding: .75em 1.3em .75em 1.3em;
+    border: transparent;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn-sedan{
+    color: #e38525;
+}
+.btn-suv{
+    color: #016871;
+}
+.btn-luxury{
+    color: #014140 ;
+}
+.btn-sedan:hover{
+    color: white;
+    background-color:black;
+}
+.btn-suv:hover{
+    color: white;
+    background-color:black;
+}
+.btn-luxury:hover{
+    color: white;
+    background-color:black;
+}
+.attribution{
+    font-size: 1em;
+    color: black;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
