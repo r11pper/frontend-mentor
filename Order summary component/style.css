@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+*{
+    font-family: 'Red Hat Display';
+}
+
+body{
+    background-color:  hsl(225, 100%, 94%);
+}
+
+.container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 25em;
+    border-radius: .7em;
+    background-color: white;
+    -moz-box-shadow: 0 0 5px #999;
+    -webkit-box-shadow: 0 0 5px #999;
+    box-shadow: 0 0 5px #999;
+}
+
+.pic{
+    width: 100%;
+    border-radius: .7em .7em 0 0 ;
+}
+
+.header{
+    padding: 1em;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.description{
+    margin-top: 1em;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.subscription{
+   background-color: hsl(225, 100%, 98%);
+   display: flex;
+   justify-content:center;
+  color: hsl(223, 47%, 23%);
+  font-weight: bolder;
+  align-items: center;
+  padding: .5em 1em .5em 1em;
+  margin: 1em;
+  border-radius: .5em;
+}
+.change{
+text-decoration: underline;
+cursor: pointer;
+margin-left: 4em;
+}
+.pay{
+    padding: 1em;
+    width: 90%;
+    border-radius: 1em;
+    border: transparent;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bolder;
+    box-shadow: 1px 1px 5px 1px grey;
+    cursor: pointer;
+}
+.pay:hover{
+    color: black;
+    background-color: white;
+}
+.cancel{
+    padding: 1em;
+    width: 90%;
+    border-radius: 1em;
+    border: transparent;
+    margin-top: 1em;
+    background-color: transparent;
+    color: hsl(225, 100%, 94%);
+    font-weight: bolder;
+    cursor: pointer;
+}
+.cancel:hover{
+    color: white;
+    background-color: red;
+}
+.attribution{
+    font-size: 1em;
+    color: black;
+    text-align: center;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
